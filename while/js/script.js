@@ -12,9 +12,8 @@
    Svolgete questo esercizio in 2 versioni: col ciclo for e col ciclo while.
 ---------------------------------------------------------------------------------------------------------- */
 /*
-// Creo un li
-// Stampo il li sul DOM
 // Creo un ciclo while
+// - Creo un li
 // - Inserisco l'elemento li nel DOM finchè i è minore della lunghezza dell'array
 */
 // Variabili
