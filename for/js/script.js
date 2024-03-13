@@ -17,7 +17,7 @@
 // Stampo nel DOM l'elemento
 */
 // Variabili
-const ulContainer = document.querySelector('.lista-spesa');
+const ulContainer = document.querySelector('#lista-spesa');
 const list = [
     'Latte',
     'Cacao',
@@ -28,4 +28,6 @@ const list = [
 ];
 // Funzionalità
 for (let i = 0; i < list.length; i++) {
+    const thisElement = list[i];
+    ulContainer.innerHTML += `<li>${thisElement}</li>`;
 }
